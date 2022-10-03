@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: solvingteam/gefl-prefattibilita:1.0.0
+image: solvingteam/gefl-prefattibilita:1.0.2
 dbms: none
 healthCheckPath: "/management/health"
 roles:
