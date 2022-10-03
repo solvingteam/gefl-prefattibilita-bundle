@@ -1,0 +1,6 @@
+code: richiesta-details-widget
+titles:
+  en: Richiesta Details Widget
+  it: Richiesta Details Widget
+group: free
+customUiPath: richiesta-details-widget.ftl

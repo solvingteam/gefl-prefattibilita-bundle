@@ -1,0 +1,6 @@
+code: richiesta-form-widget
+titles:
+  en: Richiesta Form Widget
+  it: Richiesta Form Widget
+group: free
+customUiPath: richiesta-form-widget.ftl
