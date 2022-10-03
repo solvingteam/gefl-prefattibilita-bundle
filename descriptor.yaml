@@ -1,0 +1,13 @@
+code: prefattibilita-bundle
+description: This is the prefattibilita bundle
+
+components:
+  plugins:
+    - plugins/prefattibilita-plugin.yaml
+
+  widgets:
+    - ui/widgets/richiesta/tableWidget/richiesta-table-widget-descriptor.yaml
+    - ui/widgets/richiesta/detailsWidget/richiesta-details-widget-descriptor.yaml
+    - ui/widgets/richiesta/formWidget/richiesta-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
