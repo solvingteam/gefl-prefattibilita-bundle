@@ -1,9 +1,8 @@
 descriptorVersion: v4
-image: solvingteam/gefl-prefattibilita:1.0.28
+image: solvingteam/gefl-prefattibilita:1.0.29
 dbms: none
 healthCheckPath: /management/health
 ingressPath: /prefattibilita
-deploymentBaseName: prefattibilita
 roles:
   - "prefattibilita-admin"
   - "richiesta-admin"
