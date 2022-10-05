@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: solvingteam/gefl-prefattibilita:1.0.26
+image: solvingteam/gefl-prefattibilita:1.0.27
 dbms: none
 healthCheckPath: /management/health
 ingressPath: /prefattibilita
