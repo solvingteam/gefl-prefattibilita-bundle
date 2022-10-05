@@ -1,8 +1,9 @@
 descriptorVersion: v4
-image: solvingteam/gefl-prefattibilita:1.0.29
+image: solvingteam/gefl-prefattibilita:1.0.30
 dbms: none
 healthCheckPath: /management/health
 ingressPath: /prefattibilita
+deploymentBaseName: prefattibilita
 roles:
   - "prefattibilita-admin"
   - "richiesta-admin"
@@ -11,11 +12,6 @@ roles:
 ### uncomment lines below to enable the injection of environment variables in your plugin
 ### ENV_1_NAME directly injects a value
 ### ENV_2_NAME leverages a cluster secret value
-# environmentVariables:
-#  - name: ENV_1_NAME
-#    value: env1value
-#  - name: ENV_2_NAME
-#    valueFrom:
-#      secretKeyRef:
-#        name: env-2-secret
-#        key: env-2-secret-key
+environmentVariables:
+  - name: LOGGING_LEVEL_ROOT
+    value: DEBUG
