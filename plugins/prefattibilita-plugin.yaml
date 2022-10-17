@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: solvingteam/gefl-prefattibilita:1.0.49
+image: solvingteam/gefl-prefattibilita:1.0.50
 dbms: none
 healthCheckPath: /management/health
 ingressPath: /prefattibilita
@@ -16,4 +16,4 @@ environmentVariables:
   - name: LOGGING_LEVEL_ROOT
     value: DEBUG
   - name: MOCK_ESITO
-    value: true
+    value: false
